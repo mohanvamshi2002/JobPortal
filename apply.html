@@ -1,0 +1,34 @@
+<!-- job/apply.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N9BPNKGQ');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply Now - CareerLaunch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9BPNKGQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="max-w-xl mx-auto p-6">
+    <h2 class="text-2xl font-bold text-indigo-600 mb-4">Apply for a Position</h2>
+    <form id="job-application" action="thankyou.html" method="get" class="space-y-4 bg-gray-100 p-6 rounded shadow">
+      <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 border rounded">
+      <input type="email" name="email" placeholder="Email Address" required class="w-full p-2 border rounded">
+      <input type="text" name="position" placeholder="Position Applying For" required class="w-full p-2 border rounded">
+      <textarea name="message" placeholder="Tell us why you're a good fit..." rows="4" class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>
