@@ -21,13 +21,19 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <div class="max-w-xl mx-auto p-6">
-    <h2 class="text-2xl font-bold text-indigo-600 mb-4">Apply for a Position</h2>
-    <form id="job-application" action="thankyou.html" method="get" class="space-y-4 bg-gray-100 p-6 rounded shadow">
-      <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 border rounded">
-      <input type="email" name="email" placeholder="Email Address" required class="w-full p-2 border rounded">
-      <input type="text" name="position" placeholder="Position Applying For" required class="w-full p-2 border rounded">
-      <textarea name="message" placeholder="Tell us why you're a good fit..." rows="4" class="w-full p-2 border rounded"></textarea>
-      <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">Submit Application</button>
+    <h2 class="text-3xl font-bold text-indigo-600 mb-6 text-center">Apply for a Position</h2>
+    <form id="job-application" action="thankyou.html" method="get" class="space-y-5 bg-gray-100 p-6 rounded-lg shadow">
+      <input type="text" name="name" placeholder="Full Name" required class="w-full p-3 border border-gray-300 rounded">
+      <input type="email" name="email" placeholder="Email Address" required class="w-full p-3 border border-gray-300 rounded">
+      <select name="position" required class="w-full p-3 border border-gray-300 rounded">
+        <option value="" disabled selected>Select Position</option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+        <option value="Project Manager">Project Manager</option>
+      </select>
+      <textarea name="message" placeholder="Tell us why you're a good fit..." rows="5" class="w-full p-3 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded">Submit Application</button>
     </form>
   </div>
 </body>
